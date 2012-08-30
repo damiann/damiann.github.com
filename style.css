@@ -691,12 +691,6 @@ footer a, footer a:visited {
 a, a:visited {
   text-decoration:none;
 }
-a[href]::after {
-  content:' (', attr(href), ')';
-}
-abbr[title]::after {
-  content:' (', attr(title), ')';
-}
 .ir a::after, a[href^="javascript:"]::after, a[href^="#"]::after {
   content:'';
 }
